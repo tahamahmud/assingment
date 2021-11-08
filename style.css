@@ -1,0 +1,132 @@
+body{
+    margin: 0%;
+}
+.top-banner{
+    background-image: url(pic/top-banner.png);
+    background-repeat: no-repeat;
+    display: flex;
+    padding-bottom: 5px;
+}
+.skip-the-diet{
+width: 50%;
+padding: 5%;
+}
+
+.skip-the-diet img{
+    width: 80%;
+    margin-left: 5%;
+}
+.chokolet-color{
+    color: chocolate;
+}
+h1{
+    font-size: 50px;
+    font-weight: 200;
+    font-family: 'Fruktur', cursive;
+}
+h2{
+    font-size: 30px;
+    font-weight: 700;
+}
+h3{
+    font-size: 25px;
+    font-weight: 800;
+}
+h4{
+    font-size: 20px;
+}
+p{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: justify;
+    font-family: 'Slabo 27px', serif;
+    
+}
+.button{
+    text-decoration: none;
+    padding: 10px 30px;
+    background-image: linear-gradient(tomato, yellow);
+    border: 5px solid rgb(233, 179, 78);
+    color: whitesmoke;
+    font-weight: 700;
+    border-radius: 20px;
+}
+.middle-banner{
+    background-image: url(pic/Frame\ 59.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+    padding-bottom: 80px;
+}
+.about-me-left{
+    width: 25%;
+    margin-left: 2%;
+    padding-left: 2%;
+    height: 250px;
+}
+.about-me-left img{
+    width: 120%;
+    
+}
+.about-me{
+    width: 25%;
+    margin-left: 3%;
+    padding-left: 5%;
+    padding-top: 5%;
+    height: 250px;
+}
+.about-me-right{
+    width: 25%;
+    margin-right: 5%;
+    height: 250px;
+    padding-top: 60px;
+}
+.about-me-right img{
+    width: 150%;
+}
+.thaird-part{
+    padding-left: 22%;
+    padding-right: 22%;
+    text-align: center ;
+}
+.pic{
+    width: 25%;
+    border: 15px solid white;
+    border-radius: 15px;
+    box-shadow: 10px 10px 30px gainsboro;
+    padding: 5px;
+    
+}
+.pic img{
+width: 100%;
+height: 150px;
+border-radius: 15px;
+}
+.flex{
+    display: flex;
+    margin: 0% 11% 11%;
+}
+#am{
+margin-right: 6%;
+}
+#jam{
+    margin-left: 6%;
+    }
+footer{
+text-align: center;
+background-color: rgb(5, 4, 22);
+padding: 20px 150px 50px;
+color: whitesmoke;
+    }
+.patr-four{
+        margin:5%;
+    }
+td{
+       
+        padding-right: 70px;
+    }
+td a{
+    text-decoration: none;
+    color: tomato;
+    font-weight: 700;
+    font-size: 20px;
+}
