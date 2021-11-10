@@ -1,5 +1,6 @@
 body{
     margin: 0%;
+    overflow-x: hidden;
 }
 .top-banner{
     background-image: url(pic/top-banner.png);
@@ -64,7 +65,7 @@ p{
     height: 250px;
 }
 .about-me-left img{
-    width: 120%;
+    width: 132%;
     
 }
 .about-me{
@@ -81,7 +82,9 @@ p{
     padding-top: 60px;
 }
 .about-me-right img{
-    width: 150%;
+    width: 120%;
+    padding-left: 80px;
+     
 }
 .thaird-part{
     padding-left: 22%;
@@ -104,13 +107,9 @@ border-radius: 15px;
 .flex{
     display: flex;
     margin: 0% 11% 11%;
+    justify-content: space-evenly;
 }
-#am{
-margin-right: 6%;
-}
-#jam{
-    margin-left: 6%;
-    }
+
 footer{
 text-align: center;
 background-color: rgb(5, 4, 22);
