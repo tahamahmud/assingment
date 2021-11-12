@@ -63,10 +63,12 @@ p{
     margin-left: 2%;
     padding-left: 2%;
     height: 250px;
+    
 }
 .about-me-left img{
     width: 132%;
-    
+    justify-content:
+
 }
 .about-me{
     width: 25%;
@@ -74,6 +76,7 @@ p{
     padding-left: 5%;
     padding-top: 5%;
     height: 250px;
+    
 }
 .about-me-right{
     width: 25%;
@@ -83,8 +86,7 @@ p{
 }
 .about-me-right img{
     width: 120%;
-    padding-left: 80px;
-     
+    padding-left: 80px;  
 }
 .thaird-part{
     padding-left: 22%;
@@ -97,7 +99,15 @@ p{
     border-radius: 15px;
     box-shadow: 10px 10px 30px gainsboro;
     padding: 5px;
-    
+}
+#order-1{
+    order: 1;
+}
+#order-2{
+    order: 2;
+}
+#order-3{
+    order: 3;
 }
 .pic img{
 width: 100%;
@@ -119,13 +129,26 @@ color: whitesmoke;
 .patr-four{
         margin:5%;
     }
-td{
-       
-        padding-right: 70px;
-    }
-td a{
-    text-decoration: none;
-    color: tomato;
-    font-weight: 700;
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(5,180px) 85px;
+    justify-content: center;
+    
     font-size: 20px;
+    font-weight: 700;
+    
+    
+}
+.grid-container>div>a{
+    text-decoration: none;
+    color: rgb(9, 5, 51);
+   
+    
+}
+
+#popular-posation{
+    margin-left: 150px;
+
+
 }
